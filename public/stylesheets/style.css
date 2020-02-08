@@ -1,8 +1,136 @@
+body html{
+  background-color: rgb(49, 49, 49) !important;
+  color: white !important;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(10, 10, 10) !important;
+  color: white;
+  }
+.header {
+  background-image: url(https://cdn.Asthriona.com/HighresScreenshot00002.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  height: 100vh;
+}
+/* Rainboom Engine */
+.reheader {
+  background-image: url(https://cdn.Asthriona.com/RBS_wp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  height: 100vh;
+}
+.reheader-content-inner {
+color: #fff;
+background: rgba(0, 0, 0, 0.7);
+padding: 100px;
+position: relative;
+top: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
-a {
-  color: #00B7FF;
+/* End Rainboom Engine */
+
+.header-content-inner {
+color: #000;
+background: rgba(255, 255, 255, 0.5);
+padding: 100px;
+position: relative;
+top: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.logo img { 
+filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4; 
+  filter: gray;
+}
+
+.logo img:hover {    
+filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  filter: none; 
+}
+.social {
+font-size: 20px;
+}
+
+.social a:link {
+color: white;
+}
+.social a:visited {
+color: white;
+}
+.social a:hover {
+color: orange;
+transition: all 0.3s ease-in-out 0s;
+}
+.social a:active {
+color: orange;
+}
+
+.card {
+background-color: #3d3d3d !important;
+ box-shadow: 5px 5px 5px #606060;
+  border-radius: 0 !important;
+  padding-left: 10px;
+}
+
+.card a:link {
+color: white;
+}
+.card a:visited {
+color: white;
+}
+.card a:hover {
+color: orange;
+transition: all 0.3s ease-in-out 0s;
+}
+.card a:active {
+color: orange;
+}
+
+img {
+padding: 10px;
+}
+.version {
+position: relative;
+bottom: 0px;
+left: 0px;
+color: #5e5e5e;
+}
+.Humans img {
+position: relative;
+bottom: 0px;
+right: 0;
+display: block;
+}
+
+/* NEW CSS FOR RAINBOOM */
+footer {
+  background-color: rgb(8, 8, 8);
+  bottom: 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 14.4px;
+  font-weight: 300;
+  line-height: 21.6px;
+  padding-left: 0px;
+  padding-top: 24px;
+  text-align: left;
+}
+
+.samer {
+  background-image: url('https://cdn.asthriona.com/color-Banner.jpg');
+  text-align: center;
+  color: black;
+}
+.col-sm-offset-1{
+  text-align: center !important;
 }

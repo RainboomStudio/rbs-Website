@@ -1,10 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{{body}}}
-  </body>
-</html>
+<head>
+<title>{{ title }}</title>
+<!--CDN Loaded CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+<!--Custom CSS -->
+<link rel="stylesheet" href="/stylesheets/style.css">
+<!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="description" content="We are a Game developement studio. and we made cool games.">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Sirius Media Group">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Meta -->
+    <meta name="twitter:card" content="https://RainboomStudio.com" />
+    <meta name="twitter:site" content="@rainboomStudio" />
+    <meta name="twitter:title" content="Rainboom Studio | {{ this.page.meta_title }}" />
+    <meta name="twitter:description" content="{{ this.page.description }}" />
+    <meta name="twitter:image" content="http://www.siriusmediagroup.com/themes/sirius-media-group/assets/img/SIRIUSMG(BL).png" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-592DPQN');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+  {{{body}}}
+  <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <img src="https://cdn.asthriona.com/SIRIUSMG%28WL%29.png" width="40%">
+          <p>Rainboom Studio is Powered by <a href="https://SiriusMediaGroup.com" target="blank"> Sirius Media Group</a></p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Socials</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="//twitter.com/rainboomstudio">Twitter</a>
+              </li>
+              <li>
+                <a href="//instagram.com/rainboomstudio">Instagram</a>
+              </li>
+              <li>
+                <a href="">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Parthner</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://SiriusHD.ch">SiriusHD</a>
+              </li>
+              <li>
+                <a href="https://nuxarch.com">NuxArch</a>
+              </li>
+              <li>
+                <a href="https://www.epicgames.com">Epic Games</a>
+              </li>
+              <li>
+                <a href="https://unity3d.com/fr">Unity</a>
+              </li>
+              <li>
+                 <a href="https://www.autodesk.fr/">Autodesk</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2018 - 2020 Copyright:
+      <a href="/"> Rainboom Studio</a>
+    </div>
+  </footer>
